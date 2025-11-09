@@ -57,9 +57,17 @@ public class CalcEngine
      */
     public void minus()
     {
+        /*
+        if (previousOperator == ' '){
+            applyPreviousOperator();
+            previousOperator = '+';
+            displayValue = 0;
+        } I couldn't fix the issue. -_-
+        */
         applyPreviousOperator();
         previousOperator = '-';
         displayValue = 0;
+        
     }
     
     /**
@@ -82,6 +90,9 @@ public class CalcEngine
     public void clear()
     {
         displayValue = 0;
+        previousOperator = ' ';
+        leftOperand = 0; 
+        // copy paste to what the original was.
     }
 
     /**

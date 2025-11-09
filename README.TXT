@@ -44,3 +44,11 @@ Question 28.
 The clear method doesn't reset all of the important methods to,
 only the display screen. So the old operator is still active even when
 the clear method is called. 
+
+Question 29.
+Made changes in the clear method. 
+
+Question 30.
+It value displayed was 6, which is the right answer. However,
+I noticed that this program doesn't take account that when you have 2
+"-" you get a plus. 
