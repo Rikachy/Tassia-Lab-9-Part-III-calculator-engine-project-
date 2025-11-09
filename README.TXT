@@ -40,3 +40,7 @@ if the previousOperator isn't "+" then it is a "-". This is not always
 the case and the "-" operation would always execute if the "+" isn't 
 detected. 
 
+Question 28.
+The clear method doesn't reset all of the important methods to,
+only the display screen. So the old operator is still active even when
+the clear method is called. 
