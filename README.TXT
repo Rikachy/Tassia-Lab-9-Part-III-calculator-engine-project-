@@ -30,3 +30,13 @@ No it doesn't, first it gives 9 then -13.
 Question 25.
 I feel like this program is pretty primitive, because it only does 2 
 calculations and it doesn't even do it correctly.
+
+Question 26.
+After performing these methods in CalcEngine, the value displayed is -4.
+Which should've been 4,because no operations should've been done. 
+Question 27. 
+The equals methode can cause some problems, because it is assuming that
+if the previousOperator isn't "+" then it is a "-". This is not always
+the case and the "-" operation would always execute if the "+" isn't 
+detected. 
+
